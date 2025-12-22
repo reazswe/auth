@@ -29,15 +29,22 @@ NODE_ENV= development
 PORT= 5000
 ```
 
-##installation & Setup
+## installation & Setup
+```
 git clone https://github.com/reazswe/auth.git
-
-#Go to project directory
+```
+# Go to project directory
+```
 cd auth
-#Install dependencies
+```
+# Install dependencies
+```
 npm install
-#Start the server
+```
+# Start the server
+```
 npm start
+```
 Server will run on 
 http://localhost:5000
 
@@ -45,23 +52,28 @@ http://localhost:5000
 ## Register User
 POST /api/aut/registe
 Request body:
+```
 {
     "name":"Riazjul",
     "email":"riajul@gmail.com",
     "password":"1234567"
 }
+```
 ## Login User
 POST /api/auth/login
 
-json
+json:
+```
 {
     "token":"JWT_TOKEN_HERE"
 }
+```
 ## Protected Profile Routes
 GET /api/auth/profile
 Header:
+```
 Authorization: Bearer JWT_TOKEN_HERE
-
+```
 ## Testing
  use Postman to test APIs
  Ensure Authorization heaer is correctly set for protected routes
