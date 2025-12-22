@@ -2,7 +2,7 @@
 A secure authentication system build with Node.js, Express, MongoDB, and JWT .
 This project demonstrates user registration, login, and protected routes using JWT-based authentication.
 
-#Features
+## Features
 -User Registration
 -User Login
 -Password hashing(bcrypt)
@@ -11,7 +11,7 @@ This project demonstrates user registration, login, and protected routes using J
 -MongoDB Atlas Integration
 -Environment Variable Support
 
-#Tech Stack
+## Tech Stack
 
 -Node.js
 -Express.js
@@ -26,9 +26,9 @@ create a `.env` file in the project root:
 JWT_SECRET = secret_key
 MONGO_URI= connection_string
 NODE_ENV= development
-PORT= 5000
+PORT= 5000```
 
-#installation & Setup
+##installation & Setup
 git clone https://github.com/reazswe/auth.git
 
 #Go to project directory
@@ -41,7 +41,7 @@ Server will run on
 http://localhost:5000
 
 
-#Register User
+## Register User
 POST /api/aut/registe
 Request body:
 {
@@ -49,29 +49,29 @@ Request body:
     "email":"riajul@gmail.com",
     "password":"1234567"
 }
-#Login User
+## Login User
 POST /api/aut/login
 
 json
 {
     "token":"JWT_TOKEN_HERE"
 }
-#Protected Profile Routes
+## Protected Profile Routes
 GET /api/auth/profile
 Header:
 Authorization: Bearer JWT_TOKEN_HERE
 
-#Testing
+## Testing
  use Postman to test APIs
  Ensure Authorization heaer is correctly set for protected routes
 
- #Security Notes
+ ## Security Notes
  Password are hashed using bcrypt
  JWT tokens are uer for authentication
  Sensitive data is stored in environment variable
 
- #Author
+ ## Author
  Reazul islam
  System Engineer(Go)
 
- #license
+ ## license
