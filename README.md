@@ -26,7 +26,8 @@ create a `.env` file in the project root:
 JWT_SECRET = secret_key
 MONGO_URI= connection_string
 NODE_ENV= development
-PORT= 5000```
+PORT= 5000
+```
 
 ##installation & Setup
 git clone https://github.com/reazswe/auth.git
@@ -50,7 +51,7 @@ Request body:
     "password":"1234567"
 }
 ## Login User
-POST /api/aut/login
+POST /api/auth/login
 
 json
 {
