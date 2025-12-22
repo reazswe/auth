@@ -14,7 +14,7 @@ if(process.env.NODE_ENV ==="development"){
 }
 app.use("/api/auth",authRoutes);
 app.get("/",(req,res)=>{
-    res.send("auth api is working");
+    res.send("auth api is working with test");
 });
 
 app.use((err,req,res,next)=>{
