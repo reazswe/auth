@@ -33,7 +33,7 @@ PORT= 5000
 ```
 git clone https://github.com/reazswe/auth.git
 ```
-### Go to project directory
+## Go to project directory
 ```
 cd auth
 ```
