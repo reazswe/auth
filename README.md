@@ -20,7 +20,7 @@ This project demonstrates user registration, login, and protected routes using J
 -bcrypt
 -dotenv
 
-## Environment Variable
+### Environment Variable
 create a `.env` file in the project root:
 ```env
 JWT_SECRET = secret_key
@@ -29,19 +29,19 @@ NODE_ENV= development
 PORT= 5000
 ```
 
-## installation & Setup
+### installation & Setup
 ```
 git clone https://github.com/reazswe/auth.git
 ```
-# Go to project directory
+### Go to project directory
 ```
 cd auth
 ```
-# Install dependencies
+### Install dependencies
 ```
 npm install
 ```
-# Start the server
+### Start the server
 ```
 npm start
 ```
@@ -49,7 +49,7 @@ Server will run on
 http://localhost:5000
 
 
-## Register User
+### Register User
 POST /api/aut/registe
 Request body:
 ```
@@ -59,7 +59,7 @@ Request body:
     "password":"1234567"
 }
 ```
-## Login User
+### Login User
 POST /api/auth/login
 
 json:
@@ -68,7 +68,7 @@ json:
     "token":"JWT_TOKEN_HERE"
 }
 ```
-## Protected Profile Routes
+### Protected Profile Routes
 GET /api/auth/profile
 Header:
 ```
