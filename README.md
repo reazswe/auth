@@ -1,3 +1,6 @@
+![Node.js](https://img.shields.io/badge/node.js-v24-green)
+![License](https://img.shields.io/badge/license-MIT-blue)
+
 # Node.js Authentication Api
 A secure authentication system build with Node.js, Express, MongoDB, and JWT .
 This project demonstrates user registration, login, and protected routes using JWT-based authentication.
