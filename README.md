@@ -3,24 +3,23 @@ A secure authentication system build with Node.js, Express, MongoDB, and JWT .
 This project demonstrates user registration, login, and protected routes using JWT-based authentication.
 
 ## Features
--User Registration
--User Login
--Password hashing(bcrypt)
--Protected Routes
--Role-Based Authoriaztion(USER/ADMIN)
--MongoDB Atlas Integration
--Environment Variable Support
+-User Registration  
+-User Login  
+-Password hashing(bcrypt)  
+-Protected Routes  
+-Role-Based Authoriaztion(USER/ADMIN)  
+-MongoDB Atlas Integration  
+-Environment Variable Support  
 
 ## Tech Stack
+-Node.js  
+-Express.js  
+-MongDB+Mongoose  
+-JWT(jsonwebtoken)  
+-bcrypt  
+-dotenv  
 
--Node.js
--Express.js
--MongDB+Mongoose
--JWT(jsonwebtoken)
--bcrypt
--dotenv
-
-### Environment Variable
+## Environment Variable
 create a `.env` file in the project root:
 ```env
 JWT_SECRET = secret_key
@@ -30,10 +29,11 @@ PORT= 5000
 ```
 
 ### installation & Setup
+---
 ```
 git clone https://github.com/reazswe/auth.git
 ```
-## Go to project directory
+### Go to project directory
 ```
 cd auth
 ```
@@ -45,8 +45,8 @@ npm install
 ```
 npm start
 ```
-Server will run on 
-http://localhost:5000
+**Server will run on** 
+[here]http://localhost:5000
 
 
 ### Register User
