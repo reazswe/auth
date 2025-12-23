@@ -1,7 +1,7 @@
 import User from "../models/user.model.js";
 import bcrypt from "bcrypt";
 import generateToken from "../utils/generateToken.js";
-import { registerUser } from "../services/services.js";
+import { registerUser } from "../services/auth.services.js";
 
 export const register = async(req,res) =>{
     await registerUser(req.body);
