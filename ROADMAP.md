@@ -1,13 +1,13 @@
-## v1.0.0 – Initial Release (Completed)
-- User Registration
+## v1.0.0 – Initial Release (wip)
+- User Registration(ok)
 - User Login
 - Password Hashing (bcrypt)
 - JWT Authentication
 - Protected Profile Route
 - Role-Based Authorization (USER / ADMIN)
-- MongoDB Atlas Integration
-- Environment Variable Configuration
-- Deployment on Render
+- MongoDB Atlas Integration(ok)
+- Environment Variable Configuration(ok)
+- Deployment on Render(ok)
 ## v1.1.0 - Authentication Improvements
 -Refresh Token Support
 -Logout Endpoint
@@ -38,11 +38,11 @@
 -Multiple Environents(dev/staging/prod)
 -performace Optimization
 -Monitoring & Alerts
- ## notes
+ ## Notes
  -Features may change based on requirents
  -Issue and bugs are tracked using Github  Issue
  -Each version will be published Via github Realses
 
- ## maintainer
+ ## Maintainer
  riajul islam
- system engineer go 
+ system engineer (go)
